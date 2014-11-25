@@ -3,7 +3,7 @@
   "author": "Marc Blando",
   "email": "marc.blando@engrande.com",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {
     "gulp": "~3.8.10",
     "browserify": "~6.3.2",
