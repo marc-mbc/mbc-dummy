@@ -2,3 +2,6 @@
 node_modules/*
 bower_components/*
 web_component_dist/*
+.sass-cache/*
+public/*
+app/styles/css/*

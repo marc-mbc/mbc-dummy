@@ -10,10 +10,9 @@
     "browserify": "~6.3.2",
     "browserify-shim": "~3.8.0",
     "bower": "~1.3.12",
-    "bdgt-web-component-builder": "git+ssh://git@bitbucket.org:budgetplaces/web_component_builder.git#v0.0.7"
+    "bdgt-web-component-builder": "git+ssh://git@bitbucket.org:budgetplaces/web_component_builder.git#v0.0.9"
   },
   "browser": {
-    "bdgt-dummy": "./node_modules/bdgt-dummy/app/scripts/main.js",
     "angular": "./node_modules/angular/angular.js"
   },
   "browserify": {
