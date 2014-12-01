@@ -1,7 +1,10 @@
+/* globals angular */
 'use strict';
-var angular = require('angular');
+
+require('angular');
 
 var module_name = 'bdgtDummy';
+
 var app = angular.module(module_name, []);
 
 app.directive('bdgtDummy', require('./directives/DummyDir'));
