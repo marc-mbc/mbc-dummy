@@ -12,7 +12,8 @@
     "browserify-shim": "~3.8.0",
     "browserify-ngannotate": "~0.4.0",
     "bower": "~1.3.12",
-    "bdgt-web-component-builder": "git+ssh://git@bitbucket.org:budgetplaces/web_component_builder.git#v0.0.12"
+    "bdgt-web-component-builder": "git+ssh://git@bitbucket.org:budgetplaces/web_component_builder.git#v0.0.12",
+    "bdgt-styles": "git+ssh://git@bitbucket.org:budgetplaces/bdgt-styles.git#v0.0.6"
   },
   "browserify": {
     "transform": [
@@ -22,6 +23,9 @@
   },
   "browserify-shim": {
     "jQuery": "global:$"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install || ../bower/bin/bower install || bower install"
   },
   "engines": {
     "node": ">=0.10.0"
