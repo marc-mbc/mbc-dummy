@@ -7,13 +7,23 @@
   "main": "./app/scripts/main.js",
   "dependencies": {
     "angular": "~1.3.4",
-    "gulp": "~3.8.10",
-    "browserify": "~6.3.2",
-    "browserify-shim": "~3.8.0",
-    "browserify-ngannotate": "~0.4.0",
+    "bdgt-styles": "git+ssh://git@bitbucket.org:budgetplaces/bdgt-styles.git#v0.0.7"
+  },
+  "devDependencies": {
+  	"bdgt-web-component-builder": "git+ssh://git@bitbucket.org:budgetplaces/web_component_builder.git#v0.0.15",
+    "angular-mocks": "~1.3.5",
     "bower": "~1.3.12",
-    "bdgt-web-component-builder": "git+ssh://git@bitbucket.org:budgetplaces/web_component_builder.git#v0.0.12",
-    "bdgt-styles": "git+ssh://git@bitbucket.org:budgetplaces/bdgt-styles.git#v0.0.6"
+    "browserify": "~6.3.2",
+    "browserify-ngannotate": "~0.4.0",
+    "browserify-shim": "~3.8.0",
+    "chai": "~1.10.0",
+    "chai-as-promised": "~4.1.1",
+    "gulp": "~3.8.10",
+    "mocha": "~1.20.1",
+    "protractor": "~1.5.0"
+  },
+  "browser": {
+    "jquery": "./bower_components/jquery/jquery.js"
   },
   "browserify": {
     "transform": [
@@ -25,7 +35,7 @@
     "jQuery": "global:$"
   },
   "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install || ../bower/bin/bower install || bower install"
+    "postinstall": "bower install"
   },
   "engines": {
     "node": ">=0.10.0"

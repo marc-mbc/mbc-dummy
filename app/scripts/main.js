@@ -7,6 +7,7 @@ var module_name = 'bdgtDummy';
 
 var app = angular.module(module_name, []);
 
+app.controller('DummyCtrl', ['$scope', require('./controllers/DummyCtrl')]);
 app.directive('bdgtDummy', require('./directives/DummyDir'));
 
 angular.element(document).ready(function() {

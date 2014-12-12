@@ -5,7 +5,7 @@ var DummyDir = function() {
     restrict: 'E',
     templateUrl: '/assets/views/web_component_dist/bdgt-dummy/dummy.html',
     scope: {}, 
-    controller: ['$scope', require('../controllers/DummyCtrl')]
+    controller: 'DummyCtrl'
   };
 };
 
