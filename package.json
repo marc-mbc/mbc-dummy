@@ -15,7 +15,7 @@
     "bdgt-styles": "git+ssh://git@bitbucket.org:bdgt-mrjpg/bdgt-styles.git#v0.0.3"
   },
   "devDependencies": {
-    "bdgt-web-component-builder": "git+ssh://git@bitbucket.org:bdgt-mrjpg/web_component_builder.git#v0.0.17",
+    "bdgt-web-component-builder": "git+ssh://git@bitbucket.org:bdgt-mrjpg/web_component_builder.git#v0.0.18",
     "angular-mocks": "~1.3.5",
     "chai": "~1.10.0",
     "chai-as-promised": "~4.1.1",
