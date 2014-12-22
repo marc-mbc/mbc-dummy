@@ -3,7 +3,7 @@
   "author": "Marc Blando",
   "email": "marc.blando@engrande.com",
   "private": true,
-  "version": "0.0.13",
+  "version": "0.0.14",
   "main": "./app/scripts/main.js",
   "dependencies": {
     "angular": "~1.3.4",
