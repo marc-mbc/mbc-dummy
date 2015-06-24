@@ -14,19 +14,19 @@ var Dummy_Page = require('./pages/dummy.js');
 module.exports = function() {
 
   this.World = function World(callback) {
-    this.bdgt = new Dummy_Page();
+    this.mbc = new Dummy_Page();
     callback();
   };
 
   //var ptor = protractor.getInstance();
 
   this.Given(/^I am on dummy$/, function (callback) {
-    this.bdgt.get()
+    this.mbc.get()
       .then(callback);
   });
 
   this.Then(/^I should see a greeting message$/, function (callback) {
-    this.bdgt.get_greeting().then(function (text) {
+    this.mbc.get_greeting().then(function (text) {
       expect(text).to.be.equal('Dummy: Hello world!');
       callback();
     });

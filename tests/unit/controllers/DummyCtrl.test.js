@@ -10,7 +10,7 @@ describe('Unit: Testing Controllers', function() {
     });
   }
 
-  beforeEach(angular.mock.module('bdgtDummy'));
+  beforeEach(angular.mock.module('mbcDummy'));
   beforeEach(angular.mock.inject(function(_$rootScope_, _$controller_) {
     scope = _$rootScope_.$new();
     controllerFactory = _$controller_;

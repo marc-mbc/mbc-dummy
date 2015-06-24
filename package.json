@@ -1,7 +1,7 @@
 {
-  "name": "bdgt-dummy",
+  "name": "mbc-dummy",
   "author": "Marc Blando",
-  "email": "marc.blando@engrande.com",
+  "email": "marc.mbc@gmail.com",
   "private": true,
   "version": "0.0.19",
   "main": "./app/scripts/main.js",
@@ -10,16 +10,18 @@
     "browserify": "~6.3.2",
     "browserify-ngannotate": "~0.4.0",
     "browserify-shim": "~3.8.0",
-    "bdgt-styles": "git+ssh://git@bitbucket.org:bdgt-mrjpg/bdgt-styles.git#v0.0.3"
+    "mbc-styles": "git+https://github.com/marc-mbc/mbc-styles.git#v0.0.4"
   },
   "devDependencies": {
-    "bdgt-web-component-builder": "git+ssh://git@bitbucket.org:bdgt-mrjpg/web_component_builder.git#v0.0.18",
+
+    "mbc-web-component-builder": "git+https://github.com/marc-mbc/web_component_builder.git#v0.1.0",
     "gulp": "~3.8.10",
     "bower": "~1.3.12",
     "angular-mocks": "~1.3.5",
     "chai": "~1.10.0",
     "chai-as-promised": "~4.1.1",
     "mocha": "~1.20.1",
+    "cucumber": "~0.5.1",
     "protractor": "~1.5.0"
   },
   "browser": {

@@ -14,7 +14,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'public/assets/js/web_component_dist/bdgt-dummy/bdgt-dummy.js',
+      'public/assets/js/web_component_dist/mbc-dummy/mbc-dummy.js',
       'public/vendor/jquery.js'
     ],
 

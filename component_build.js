@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function (config) {
-  return require('bdgt-web-component-builder')({
+  return require('mbc-web-component-builder')({
     tools: config.tools || {},
     name: config.wc_name,
     web_component_root: config.root,

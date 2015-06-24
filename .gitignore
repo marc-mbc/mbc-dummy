@@ -5,3 +5,4 @@ web_component_dist/*
 .sass-cache/*
 public/*
 app/styles/css/*
+.idea/*
